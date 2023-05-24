@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charest="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	
+
+	<style>
+		body{
+			margin:0px;
+			padding:0px;
+		}
+
+		nav{
+			display:flex;
+			flex-direction:row;
+			background-color: rgb(255,218,185,0.7);
+			paddinf:20px;
+
+		}
+
+		nav a{
+			color:white;
+			padding:15px 20px;
+			text-decoration: none;
+		}
+
+		nav a:hover{
+			background-color:hotpink;
+
+		}
+		
+
+		h1{
+			text-align:center;
+			 font-family: "Times New Roman", Times, serif;
+			 padding:90px;
+			 margin:0px;
+			 background-image: url("image/banner.jpg");
+			 background-size:100% 100%;
+		}
+
+		h2{
+			background-color:rgb(255,218,185,0.9);
+			text-align:center;
+		}
+
+		p{
+			color:rgb(255,255,255);
+			text-align:center;
+		}
+
+		p.f{
+			color:black;
+			text-align:center;
+		}
+
+		p.p{
+			color:yellowgreen;
+			text-align:left;
+			 padding:60px;
+			 margin:20px;
+		}
+
+
+
+
+		.container{
+			width:100vw;
+			height: 100vh;
+			display:grid;
+			grid-auto-flow:column;
+			grind-template-columns: 1fr 1fr 1fr ;
+			grind-template-rows: 60px 1fr 1fr 100px ;
+			grind-column-gap:10px;
+			grind-row-gap:10px;
+			padding:10px;
+			box-sizing:border-box;
+
+			flex-wrap:wrap;
+		}
+
+		.contanier div{
+			border-width:1px;
+			border-style:solid;
+			padding:15px;
+		}
+
+		.header{
+			grid-column-start: 1;
+			grid-column-end: 5;
+		}
+
+
+		.big-content{
+			grid-column-start: 1;
+			grid-column-end: span 2;
+
+			
+		}
+
+	   aside{
+			
+			background-color: khaki;
+			padding:10px;
+			
+		}
+		section{
+			
+			background-color: beige;
+			padding:10px;
+			
+		}
+
+		
+		
+		.content-2{
+			grid-column-start: 3;
+			grid-column-end: 4;
+		
+
+		}
+
+		.content-3{
+			
+			
+		}
+
+		
+
+        .footer {
+           background-color: #f1f1f1;
+           padding: 10px;
+           text-align: center;
+        }
+      
+
+		
+
+
+
+		h3{
+			text-align:center;
+			color:black;
+		}
+
+
+		ul{
+			color:black;
+			
+		}
+
+
+
+        #special{
+        	color:black;
+        	text-align:center;
+        	border-style:dashed ;
+
+        }
+
+       
+
+       @media screen and (max-width: 700px){
+       	nav, .contanier{
+       		flex-direction: column;
+       	}
+       }
+
+
+	</style>
+
+</head>
+
+<title>INTRODUCE MYSELF</title>
+<body background="image/bgg.jpg"><!--這邊故意找可以重複的-->
+	
+<h1>
+   	<i>
+   		<font color="#FFE4E1">
+   			INTRODUCE MYSELF
+   		
+   		</font>
+    </i>
+</h1>
+
+<nav>
+	<a href="index.html"><b>HOME</b></a>
+	<a href="經歷.html"><b>經歷</b></a>
+	<a href="411000085 p.2.html"><b>課程</b></a>
+	<a href="歌詞.html"><b>歌詞</b></a>
+
+</nav>
+	
+
+  <h2 id="special"> 
+   	  <b>  
+   	     ABOUT | 翁 佳 靖
+   	 </b>
+</h2>
+
+  
+
+<div class="container">
+	
+	<div class="header">
+    <p><b><font size="3">出生於台北市，生日在2003/12/07，射手座，個性：EMO</b></font></p>
+ 
+    <p><b><font size="3">目前就讀淡江大學資訊與圖書館學系，為圖漫社的社員，喜歡歐美動畫。</b></font></p>
+   
+    </div>
+
+   <div class="big-content">
+   <aside><h3><b>以下是大一上印象深刻的課程</b></h3>
+
+   <ol>
+       <div style="border-width: 3px ; width: 150px; height: 30px ; padding: 5px; text-align: center; background-color: rgb(143, 188, 143, 0.7);border-radius: 4px;">
+
+     <span style="color: rgb(255, 255, 255);"><li><b><a href="411000085 p.2.html">多媒體技術與應用</a> </b></li></span>
+       </div>
+
+   <br/>
+
+       <div style="border-width: 3px ; width: 150px; height: 30px ; padding: 5px; text-align: center; background-color: rgb(143, 188, 143, 0.7);border-radius: 4px;"> 
+      <span style="color: rgb(255, 255, 255);"><li><b><a href="411000085 p.2.html">國際現勢</a></b></li></span>
+      </div>
+  <br/>
+
+      <div style="border-width: 3px ; width: 150px; height: 30px ; padding: 5px; text-align: center; background-color: rgb(143, 188, 143, 0.7);border-radius: 4px;">
+
+     <span style="color: rgb(255, 255, 255);"><li><b><a href="411000085 p.2.html">參考資源與服務</a></b></li></span>
+     </div>
+     </ol></aside>
+ 
+  <br/>
+
+   <section><h3><b>興趣有以下這些</b></h3>
+   <ul type="square"><font size="3"><b>
+
+   	 	<li>睡覺</li>
+   	 	<li>做白日夢</li>
+   	 	<li>塗鴉</li>
+   	 	<li>聽老歌，如<a href="https://www.youtube.com/watch?v=C35DrtPlUbc">Sukiyaki -Kyu Sakamoto</a></li>
+  
+  
+</b></font></ul></section></div>
+   <div class="content-2">
+   	<img src="image/me.jpg" width="312.5" height="350"style="float:left; margin-left:5px;border:2px white dashed;"><p class="p"><b>左圖是我當死觀光客照片 。
+   	當天很冷，凌晨1點拍攝，戴著毛帽&外套。</b>
+
+   </p></div>
+   <div class="content-3" ><img src="image/pfpf.png" width="300" height="350"style="float:left; margin-left:5px;border:2px white dashed;"><p class="p"><b>左圖是簡易自畫像。 
+   	黑底白線+空洞眼神展現我的精神狀態:D</b></div>
+  
+  
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6CUQWy9lLPQ?mute=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/01n6KjMXJNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div class="footer">
+  
+<marquee direction="right" height="50" scrollamount="5" behavior="alternate"onMouseOver="this.stop()" onMouseOut="this.start()"><b><p class=f><b>更新時間2023/05/24>>>>>老師讓我過 拜託</b></p></marquee>
+</div>
+   
+
+          
+        
+</body>
+</html>

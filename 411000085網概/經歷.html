@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<meta charest="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>
+		經歷
+	</title>
+
+	<style>
+		body{
+			color:white;
+		}
+
+		a{
+			color:#66FFE6;
+		}
+
+		h1{
+			text-align:center;
+		}
+		h2{
+			color:black;
+		}
+
+		ul.a {
+             list-style-type: circle;
+             font-size: 20px;
+
+            background:	#B0C4DE;
+            padding: 20px;
+        }
+
+        li{
+        	 background:#E6E6FA;
+             color: darkred;
+             padding: 5px;
+            margin-left: 35px;
+        }
+
+        ul.b {
+            list-style-type: square;
+            font-size: 20px;
+            background:	#B0C4DE;
+            padding: 20px;
+        }
+      nav{
+			display:flex;
+			flex-direction:row;
+			background-color: rgb(255,218,185,0.7);
+			paddinf:20px;
+
+		}
+
+		nav a{
+			color:white;
+			padding:15px 20px;
+			text-decoration: none;
+		}
+
+		nav a:hover{
+			background-color:hotpink;
+
+		}
+		.container{
+			display:flex;
+			flex-wrap:wrap;
+		}
+		aside{
+			flex:30px;
+			background-color: khaki;
+			padding:20px;
+		}
+		section{
+			flex:70px;
+			background-color: beige;
+			padding:20px;
+		}
+
+		  @media screen and (max-width: 700px){
+       	nav, .contanier{
+       		flex-direction: column;
+       	}
+		
+
+	</style>
+</head>
+
+<body background="image/background.jpg">
+
+<h1>
+	我的經歷
+</h1>
+<nav>
+	<a href="index.html"><b>HOME</b></a>
+	<a href="經歷.html"><b>經歷</b></a>
+	<a href="411000085 p.2.html"><b>課程</b></a>
+	<a href="歌詞.html"><b>歌詞</b></a>
+
+</nav>
+<div class="container">
+<aside><h2>
+	參加過的社團
+</h2>
+
+<ul class="a"><b>
+	<li>柔道社</li>
+	<li>外語社</li>
+	<li>繪畫研究社</li>
+	<li>圖像漫畫研究社</li>
+</b></ul></aside>
+
+<section><h2>
+	學過的技能
+</h2>
+
+<ul class="b"><b>
+	<li>素描</li>
+	<li>水彩</li>
+	<li>速寫</li>
+	<li>電子書</li>
+</b></ul></section>
+
+</div>
+
+<marquee direction="right" height="30" scrollamount="5" behavior="alternate"onMouseOver="this.stop()" onMouseOut="this.start()"style="color: lightpink;font-size: 20px;"><b>參加過的社團：
+柔道社
+外語社
+繪畫研究社
+圖像漫畫研究社///
+學過的技能:
+素描
+水彩
+速寫
+電子書</b></marquee>
+</body>
